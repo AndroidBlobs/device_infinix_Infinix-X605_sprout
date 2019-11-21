@@ -1,0 +1,17 @@
+on post-fs-data
+    mkdir /data/vendor/mtklog 0777 root root
+    mkdir /data/vendor/mtklog/aee_exp 0775 root root
+    mkdir /data/vendor/dumpsys 0775 system system
+    mkdir /data/vendor/core 0775 system system
+    mkdir /data/vendor/tombstones 0775 system system
+
+on post-fs
+    start aee_aedv
+    start aee_aedv64
+#chencheng open create db file 20171023
+on init
+	  setprop ro.aee.enforcing no
+          #SID: add by wangxi for XWWYWPOAEA-117 20180815 begin
+          setprop persist.vendor.mtk.aeev.filter 0
+          setprop ro.vendor.aee.enforcing no
+          #SID: add by wangxi for XWWYWPOAEA-117 20180815 end

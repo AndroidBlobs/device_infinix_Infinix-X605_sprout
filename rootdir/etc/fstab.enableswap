@@ -1,0 +1,3 @@
+#modified by shaojun.zou for increase swap space 18/11/05 start
+/dev/block/zram0 none swap defaults zramsize=50%
+#modified by shaojun.zou for increase swap space 18/11/05 end
