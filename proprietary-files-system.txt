@@ -1,0 +1,7 @@
+etc/firmware/catcher_filter_1_ulwctg_n.bin
+etc/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin
+etc/firmware/customfilter/catcher_filter_1_ulwctg_n_PLS_PS_ONLY.bin
+etc/firmware/customfilter/catcher_filter_1_ulwctg_n_SlimLog_DspAllOff.bin
+etc/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin
+etc/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin
+etc/firmware/em_filter_1_ulwctg_n.bin
